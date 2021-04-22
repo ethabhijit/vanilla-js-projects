@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation App</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="container">
+    <div id="form__container">
+      <h2>Register With Us</h2>
+      <div class="form__control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <small>Error Message</small>
+      </div>
+
+      <div class="form__control">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter email">
+        <small>Error Message</small>
+      </div>
+
+      <div class="form__control">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <small>Error Message</small>
+      </div>
+
+      <div class="form__control">
+        <label for="confirm__password">Confirm Password</label>
+        <input type="password" id="confirm__password" placeholder="Confirm password">
+        <small>Error Message</small>
+      </div>
+
+      <button id="submit__btn">Submit</button>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</body>
+</html>
